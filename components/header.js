@@ -23,7 +23,11 @@ export default function Header() {
       />
       <div className="absolute left-0 top-0 w-full flex items-center justify-between px-5 sm:px-10 py-8">
         <div>
-          <Image src={Logo} alt="sunnyside" height={windowSize?.outerWidth <= 640 ? 20 : 30} />
+          <Image
+            src={Logo}
+            alt="sunnyside"
+            height={windowSize?.outerWidth <= 640 ? 20 : 30}
+          />
         </div>
         <Image
           src={Hamburger}
